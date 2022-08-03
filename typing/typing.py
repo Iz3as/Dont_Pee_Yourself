@@ -1,4 +1,5 @@
-import sys, time
+import sys
+import time
 
 
 def dur_type(txt, dur=0.05):

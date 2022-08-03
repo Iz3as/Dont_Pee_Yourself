@@ -1,4 +1,4 @@
-from typing.typing import dur_type
+from typing import dur_type
 
 
 def test_type(capsys):
