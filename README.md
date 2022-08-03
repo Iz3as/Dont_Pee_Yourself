@@ -4,7 +4,7 @@
 
 Don't Pee Yourself is a text-based game in which you have to try not to pee yourself.
 
-You must enter commands to help [person] not to pee themselves (ideally they'd get to the toilet, image above if you don't know what a toilet is).
+You must enter commands to help [NAME NOT DECIDED] not to pee themselves (ideally they'd get to the toilet, image above if you don't know what a toilet is).
 
 If you're not sure where you are or what to do, feel free to `look around`.
 
