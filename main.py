@@ -14,7 +14,7 @@ SUCM = "off"
 hints = ["dont use words like 'the' or 'a'.","dont use capital letters.","keep your commands short, but specific.","if you were thinking of typing something like 'open door' or 'go to toilet', heres one thing you should know: its not that simple.","try typing 'help'."]
 mood = "willing"
 # type is a function to print letter by letter.
-# Credit to YeeTEDWIN
+# Credit to YeeTEDWIN (replit.com)
 def type(str):
   for letter in str:
     sys.stdout.write(letter)
