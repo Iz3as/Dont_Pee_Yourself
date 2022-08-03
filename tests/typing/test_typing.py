@@ -1,5 +1,5 @@
-import pytest
-from typing.typing import dur_type, laugh
+from typing.typing import dur_type
+
 
 def test_type(capsys):
     dur_type("pipis", 0.02)
