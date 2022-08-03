@@ -1,5 +1,5 @@
 from stab import stabgame
-from typing.typing import dur_type, laugh
+from screenwriting.screenwriting import dur_type, laugh
   
 door = "closed"
 trousers = "on"
@@ -11,7 +11,7 @@ cmd_count = 0
 cmd_max = 10
 tumblrmeme = "https://www.tumblr.com/blog/view/izeas/665384914566447104"
 SUCM = "off"
-hints = ["dont use words like 'the' or 'a'.","dont use capital letters.","keep your commands short, but specific.","if you were thinking of typing something like 'open door' or 'go to toilet', heres one thing you should know: its not that simple.","try typing 'help'."]
+hints = ["dont use words like 'the' or 'a'.","dont use capital letters.","keep your commands short, but specific.","if you were thinking of screenwriting something like 'open door' or 'go to toilet', heres one thing you should know: its not that simple.","try screenwriting 'help'."]
 mood = "willing"
   
 dur_type("Welcome to Don't Pee Yourself!")
@@ -76,7 +76,7 @@ while pee == "in":
         print("i know there was such a low chance of you getting that (or you cheated), but im not gonna help you.")
     elif command == "help me please" or command == "please help me":
         dur_type(
-            "keysmashing usually helps me think, maybe try that? typing look might also help"
+            "keysmashing usually helps me think, maybe try that? screenwriting look might also help"
         )
     elif command == "help" or command == "help please" or command == "please help":
       dur_type("who needs help?")
@@ -86,7 +86,7 @@ while pee == "in":
         dur_type("I couldn't get the image thing to work, so here's the link:")
         print(tumblrmeme)
     elif command == "show me some memes":
-        dur_type("I can't, but try typing 'me.me' into a new tab")
+        dur_type("I can't, but try screenwriting 'me.me' into a new tab")
     elif command == "enable super-easy CHEAT mode":
       if mood == "willing" or mood == "scared":
         cmd_max = 999999999999999999999999999

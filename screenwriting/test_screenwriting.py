@@ -1,4 +1,4 @@
-from typing import dur_type
+from screenwriting import dur_type
 
 
 def test_type(capsys):

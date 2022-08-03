@@ -2,7 +2,7 @@
 # coding: utf8
 import time
 
-from typing.typing import dur_type
+from screenwriting.screenwriting import dur_type
 
 answer = "gyhgftyhg"
 
