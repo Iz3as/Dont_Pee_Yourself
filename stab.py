@@ -1,28 +1,10 @@
 #!/usr/bin/env python
 # coding: utf8
-import time, sys
+import time
+
 from typing.typing import dur_type
 
 answer = "gyhgftyhg"
-
-
-def type(str):
-    for letter in str:
-        sys.stdout.write(letter)
-        sys.stdout.flush()
-        time.sleep(0.05)
-    sys.stdout.write("\n")
-    sys.stdout.flush()
-
-
-def comptype(str):
-    for letter in str:
-        sys.stdout.write(letter)
-        sys.stdout.flush()
-        time.sleep(0.666)
-    sys.stdout.write("\n")
-    sys.stdout.flush()
-
 
 
 def stabgame():
