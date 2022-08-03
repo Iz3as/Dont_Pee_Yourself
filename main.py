@@ -1,7 +1,4 @@
-import sys, time, random
 from stab import stabgame
-from typing import typing
-
 from typing.typing import dur_type, laugh
   
 door = "closed"
