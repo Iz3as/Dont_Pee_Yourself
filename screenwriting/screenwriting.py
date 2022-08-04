@@ -15,6 +15,5 @@ def laugh(txt):
     for letter in txt:
         sys.stdout.write(letter)
         sys.stdout.flush()
-        time.sleep(0)
     sys.stdout.write("HA")
     sys.stdout.flush()
