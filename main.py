@@ -1,6 +1,15 @@
+#!/usr/bin/env python
+# coding: utf8
+import codecs
 from stab import stabgame
-from screenwriting.screenwriting import dur_type, laugh
-  
+from screenwriting.screenwriting import dur_type
+import sys, random
+
+if sys.stdout.encoding.upper() != 'UTF-8':
+  sys.stdout = codecs.getwriter('utf-8')(sys.stdout.buffer, 'strict')
+if sys.stderr.encoding.upper() != 'UTF-8':
+  sys.stderr = codecs.getwriter('utf-8')(sys.stderr.buffer, 'strict')
+
 door = "closed"
 trousers = "on"
 position = "corridor"
@@ -13,10 +22,9 @@ tumblrmeme = "https://www.tumblr.com/blog/view/izeas/665384914566447104"
 SUCM = "off"
 hints = ["dont use words like 'the' or 'a'.","dont use capital letters.","keep your commands short, but specific.","if you were thinking of screenwriting something like 'open door' or 'go to toilet', heres one thing you should know: its not that simple.","try screenwriting 'help'."]
 mood = "willing"
-  
+ 
 dur_type("Welcome to Don't Pee Yourself!")
 dur_type("WARNING: if you're using speech-to-text, don't play this game. you probably won't win because it's case-sensitive.")
-dur_type("Credit to YeeTEDWIN for the function being used right now.")
 while pee == "in":
     dur_type("enter a command")
     command = input()
@@ -131,7 +139,7 @@ while pee == "in":
       dur_type("so you'll be stuck here...", 0.33)
       dur_type("F O R E V E R .", 0.666)
       while 1 == 1:
-        laugh("HA")
+        dur_type("HA",0,"HAHA")
     elif command == "stab computer":
       stabgame()
       break
