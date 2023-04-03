@@ -68,8 +68,11 @@ def stabgame():
             dur_type("(Amongst the files and folders, you see your browser.)")
             while incomputer:
                 dur_type("(Where do you go?)")
-                print("1. Browser")
+                print("1. Search engine")
                 print("2. Downloads")
                 print("3. Documents")
                 print("4. Pictures")
                 choice = input("type one of the four above numbers: ")
+                if choice == "1":
+                    dur_type("(You enter LowerCase Search, the search engine that only takes lowercase.)")
+                    search = input("Search:")
